@@ -1,4 +1,4 @@
-1.git是什么？
+﻿1.git是什么？
 git是分布式版本控制器。
 2.常用git命令？
 git init 将该目录变成git可以管理的仓库。
@@ -10,3 +10,7 @@ git status
 3.Github如何搭建自己的仓库？
 - new repository
 - repository name
+4.如何打开从githu中下载的vue？
+git ip
+npm install
+npm run dev
