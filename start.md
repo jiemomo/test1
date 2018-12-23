@@ -22,7 +22,7 @@
 - npm install
 - npm run dev
 
-5.关于协同工作
+**5.关于协同工作**
 - git checkout project-name  可以把刚刚改动的去掉（再执行git status，没有红色文件名出现，则说明没有修改。）
 - git status 
 - git pull 可以把对方更新的文件pull到本地
@@ -31,8 +31,11 @@
 - git checkout -b 分支名（分支名一般代表正在做的事情，比如add-animation）
 
 *git merge 合并分支*
+- git checkout master（当前分支是master）
+- 把分支add-animation合并进来：
+- git merge add-animation
 
-当前分支是master
-git checkout master 
-把分支add-animation合并进来：
-git merge add-animation
+
+**错误提示**
+1.fatal: remote origin already exists.
+- 输入 git remote rm origin  删除远程
